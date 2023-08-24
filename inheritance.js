@@ -8,7 +8,8 @@ class Vehicle{
     }
 }
 const motor = new Vehicle('Motor','250000') ;
-console.log(motor)
+// console.log(motor)
+// motor.move()
 class Bus extends Vehicle{
     constructor(name, price, seat, ticketPrice){
         super(name, price); // super mane tar upper lavel er kono akta(mane Vechicle class ta)
@@ -19,6 +20,7 @@ class Bus extends Vehicle{
 }
 const bus = new Bus('Bus','5858255','50', '10') ;
 console.log(bus)
+
 class Truck extends Vehicle{
     constructor(name, price, load){
         super(name, price) ;

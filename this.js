@@ -16,8 +16,4 @@ console.log(kodom)
 kodom.sleep() ;
 const badam = new Person('kacha badam',23) ;
 console.log(badam)
-badam.sleep()
-
-// vejal 
-// const lazy = kodom.sleep 
-// lazy()
+badam.sleep() ;

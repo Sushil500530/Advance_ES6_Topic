@@ -13,4 +13,5 @@ const selectedEven = players.filter(num=> num % 2 === 0) ;
 // friend er namer moddhe jader character bijor ace se nam gulo k pete chai, segulo pawar jonno use kora jay
 const friends = ['tom','john','michel','olvir'] ;
 const lenght = friends.filter(lgth => lgth.length % 2 ===0) 
+// const lenght = friends.filter(lgth => lgth.length > 5) 
 console.log(lenght)

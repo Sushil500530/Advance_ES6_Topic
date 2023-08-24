@@ -8,8 +8,9 @@ const products = [
 // jodi class vitor kichu korte chai tahle constructor namer akta function k call korte hobe 
 class Product{
     country = 'Bangladesh' ;
-    constructor(name){
+    constructor(name,onnokichu){
         this.name = name ;
+        this.onnokichu = onnokichu ;
     }
     speak(talk){
         console.log(`talking about ${talk}`)
@@ -24,12 +25,13 @@ class Teacher {
         this.name = name ;
         this.address = address
     }
-    lecture(){
-        console.log("sir is teaching Math..!")
+    lecture(sub){
+        console.log(`sir is teaching ${sub}..!`)
     }
 }
-const sushil = new Teacher('sushil Pal','Dinajpur')  ;
+const sushil = new Teacher('sushil Pal','Dinajpur') ;
  console.log(sushil)
-
- const rashid = new Teacher('Rashid', 'English') ;
+// sushil.lecture('Math')
+ const rashid = new Teacher('Rashid', 'Dhaka') ;
  console.log(rashid)
+ rashid.lecture('English')
